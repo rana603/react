@@ -1,0 +1,18 @@
+.nav{
+    background-color: black;
+    text-align: right;
+    padding: 20px;
+}
+a{
+    color:white;
+    text-decoration: none;
+    margin-right: 50px;
+    /* text-align: right; */
+}
+.card{
+    display: flex;
+    width: 800px;
+    margin-top: 50px;
+    margin:  50px auto;
+    box-shadow: 0 0 10px black;
+}
