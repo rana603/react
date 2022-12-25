@@ -1,0 +1,51 @@
+.h-tag{
+  text-align: center;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  border: 2px solid gray;
+  margin: auto;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  /* background-color: aliceblue; */
+}
+
+.button-box{
+  width: 470px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid gray;
+}
+
+.button-box button{
+  font-size: 25px;
+  color:black;
+background-color: white;
+border: none;
+
+
+}
+
+ .button-box button:hover{
+   color: rgb(101, 96, 179);
+
+} 
+.timer{
+  padding: 10px 0px 10px;
+  /* border-bottom: 2px solid gray; */
+}
+
+.stopwatch{
+  padding: 10px;
+  /* border-bottom: 2px solid gray; */
+}
